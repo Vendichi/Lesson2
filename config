@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Vendichi/HW_les1.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "HW"]
+	url = https://github.com/Vendichi/HomeWork1.git
+	fetch = +refs/heads/*:refs/remotes/HW/*
+[remote "ghomework"]
+	url = https://github.com/Vendichi/HomeWork-les1.git
+	fetch = +refs/heads/*:refs/remotes/ghomework/*
+[branch "master"]
+	remote = homework
+	merge = refs/heads/master
+[remote "homework"]
+	url = https://github.com/Vendichi/Lesson1.git
+	fetch = +refs/heads/*:refs/remotes/homework/*
